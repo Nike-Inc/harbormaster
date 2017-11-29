@@ -1,0 +1,23 @@
+[[constraint]]
+  name="github.com/sirupsen/logrus"
+  version="~1.0.2"
+[[constraint]]
+  name="github.com/spf13/cobra"
+  revision="d994347edadc56d6a7f863775fb6887606685ae6"
+[[constraint]]
+  name="github.com/spf13/viper"
+  revision="c1de95864d73a5465492829d7cb2dd422b19ac96"
+[[constraint]]
+  name="k8s.io/api"
+  revision="e532fdb5587debfd7aade56dabe9eb5df9544baf"
+[[constraint]]
+  name="k8s.io/client-go"
+  version="^3.0.0"
+[[constraint]]
+  name = "k8s.io/apimachinery"
+  # This matches the version pinned in Godeps of client-go so as to not have
+  # compatibility issues
+  revision = "85ace5365f33b16fc735c866a12e3c765b9700f2"
+[[constraint]]
+  name="github.com/allegro/bigcache"
+  revision = "b6bd76ad0f792508efc589a2790e2aee1d0f240d"
